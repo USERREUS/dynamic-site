@@ -1,0 +1,21 @@
+.pagination{
+    margin: auto;
+    text-align: center;
+}
+
+.pag-btn{
+    border-radius: 2rem;
+    color: white;
+    background-color: #3f4e8988 !important;
+    transition: none;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+}

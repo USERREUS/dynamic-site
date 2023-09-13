@@ -1,0 +1,226 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: #eceef0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-place{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form-place>h4{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+    text-align: center;
+}
+
+form>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inp-box{
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.form-label{
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+
+.inp{
+    transition: none;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .25rem;
+    margin: 0;
+    font-family: inherit;
+}
+
+select{
+    transition: none;
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    appearance: none;
+    word-wrap: normal;
+    text-transform: none;
+    margin: 0;
+    font-family: inherit;
+}
+
+.form-check{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+}
+
+.checkbox{
+    border-radius: .25em;
+    float: left;
+    width: 1em;
+    height: 1em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.25);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #505a6a;
+    transition: background .2s linear;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    text-transform: none;
+    margin: 0;
+    font-family: inherit;
+    border: none;
+}
+
+button:hover{
+    background: #ffffff8f;
+    border-radius: 3px;
+    color: black;
+}
+
+hr{
+    height: 1px;
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+.c4{
+    margin-left: 1.5rem!important;
+    margin-right: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.c5{
+    margin-left: .5rem;
+    color: white;
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    text-decoration: none;
+    background-color: #505a6a   ;
+    transition: background .2s linear;
+}
+
+.c5:hover{
+    background: #ffffff8f;
+    border-radius: 3px;
+    color: black;
+}
+
+.file-box{
+    cursor: pointer;
+    overflow: hidden;
+    transition: none;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .375rem;
+    margin: 0;
+    font-family: inherit;
+}
+
+.err{
+    padding: 1rem 0;
+    color: red;
+    text-align: center;
+}
+
+.err ul{
+    list-style: none;
+    padding-left: 10px;
+    font-weight: 500;
+}
